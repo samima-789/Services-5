@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  color: #7499f1;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.services {
+  padding:40px;
+  position: relative;
+}
+
+
+.services .icon {
+  height: 100px;
+  width: 100px;
+  margin: 30px auto 40px;
+  position: relative;
+  border-radius: 15px;
+  transform: rotate(45deg);
+  padding: 10px;
+  background-color:#7499f1;
+  box-shadow: 0px 0px 27px 0px #ccc;
+  border: 2px dotted #fff;
+}
+
+
+.icon i {
+  transform: rotate(315deg);
+  display: block;
+  color: #eaf3fa;
+  font-size: 40px;
+  padding-top: 17px;
+  padding-right: 14px;
+}
+
+.services .service-text h5{
+  color: #7499f1;
+}
+
+
+.services .service-text p{
+  color: #777;
+}
+
